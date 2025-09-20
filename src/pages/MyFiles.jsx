@@ -93,7 +93,7 @@ const MyFiles = () => {
 
     //opens the share link modal
     const openShareModal = (fileId) => {
-        const link = `${window.location.origin}/file/${fileId}`;
+        const link = `https://cloudshare-fileupload-jeet.netlify.app/file/${fileId}`;
         setShareModal({
             isOpen: true,
             fileId,
