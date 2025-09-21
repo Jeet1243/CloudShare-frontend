@@ -65,7 +65,7 @@ const PublicFileView = () => {
     };
 
     const openShareModal = () => {
-        const link = `https://cloudshare-fileupload-jeet.netlify.app/`;
+        const link = `https://cloudshare-fileupload-jeet.netlify.app/file/${fileId}`;
         setShareModal({
             isOpen: true,
             link,
