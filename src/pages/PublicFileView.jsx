@@ -109,7 +109,7 @@ const PublicFileView = () => {
                         <span className="font-bold text-xl text-gray-800">CloudShare</span>
                     </div>
                     <button
-                        onClick={openShareModal(fileId)}
+                        onClick={() => openShareModal(fileId)}
                         className="flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition-colors"
                     >
                         <Copy size={18} />
